@@ -7,7 +7,7 @@ FROM walmartt
 GROUP BY payment_method;
 SELECT COUNT(DISTINCT branch) FROM walmartt;
 
--- Problem Q1: Find different payment methods, number of transactions, and quantity sold by payment method
+-- Q1: Find different payment methods, number of transactions, and quantity sold by payment method
 SELECT 
 	payment_method,
     COUNT(*) as number_of_payments, 
@@ -15,7 +15,7 @@ SELECT
 FROM walmartt
 GROUP BY payment_method;
 
--- Project Q2: Identify the highest-rated category in each branch
+-- Q2: Identify the highest-rated category in each branch
 -- Display the branch, category, and avg rating
 SELECT * 
 FROM (
@@ -34,6 +34,7 @@ FROM (
     ) AS avg_table
 ) AS ranked_table
 WHERE ranking = 1;
+
 -- Q3: Identify the busiest day for each branch based on the number of transactions
 SELECT *
 FROM (
