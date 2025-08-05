@@ -44,7 +44,7 @@ This end-to-end data analysis project extracts key business insights from Walmar
 
 ## 📂 Project Structure
 ```text
-your-project/
+walmart_sales/
 ├── data/
 │   ├── Walmart.csv
 │   └── Walmart_cleaned.csv
