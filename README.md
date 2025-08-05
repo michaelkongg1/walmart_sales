@@ -53,5 +53,10 @@ walmart_sales/
 ├── sql/
 │   └── walmart_sql.sql
 └── README.md
+```
+## ✅ Key Insights
 
+- **Branch C** had the highest total revenue across all locations
+- **Evening shift** was consistently the busiest time of day
+- **Credit card** was the most popular payment method in 2 of 3 branches
 
