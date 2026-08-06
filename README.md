@@ -1,10 +1,12 @@
-# Walmart Sales Data Analysis: End-to-End SQL + Python Project
-This end-to-end data analysis project extracts key business insights from Walmart sales data using SQL and Python. It covers a full data pipeline: cleaning and feature engineering in Python, querying with SQL, and presenting results with business-driven reasoning, statistical analysis, and visualizations.
- 
+# Walmart Sales Data Analysis: End-to-End SQL, Python, and Power BI Project
+This end-to-end data analysis project extracts key business insights from Walmart sales data using SQL, Python, and Power BI. It covers a full data pipeline: cleaning and feature engineering in Python, querying with SQL, statistical analysis, visualization, and a full DAX reproduction of the same business questions in Power BI.
+
 ## 🛠 Tools Used
 - Python (pandas, matplotlib, seaborn, scikit-learn)
 - SQLite (via Python) — adapted from MySQL for full Colab reproducibility
+- Power BI (DAX, data modeling, star schema)
 - Google Colab / Jupyter Notebook
+
 ## 📊 Business Questions Solved
 1. **Payment Methods & Sales Volume**
    - What are the different payment methods, and how many transactions were made with each?
@@ -28,7 +30,9 @@ This end-to-end data analysis project extracts key business insights from Walmar
     - Which product categories generate the most profit in each city?
 11. **Category Revenue Share per Branch**
     - What percentage of each branch's total revenue comes from each product category?
- 
+
+All 11 questions were solved in **both SQL and DAX** — the SQL notebook uses CTEs, window functions, and aggregations, while the Power BI file reproduces each answer using measures, RANKX, CALCULATE, and time intelligence via a dedicated Date Table.
+
 ## ✅ Key Insights
 - **Digital payments dominate** — Credit card and Ewallet account for 82% of all transactions; cash represents only 18%
 - **Two categories drive most profit** — Fashion accessories and Home and lifestyle generate ~6x more profit than any other category
